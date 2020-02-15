@@ -1,1 +1,13 @@
-nums = [ ] 
+def bubbleSort(numbers):
+#i used to provide starting point for j 
+#first iteration goes from positions 0 to 4, second iteration goes from 0 to 3 
+    for i in range(len(numbers)-1, 0, -1):
+        for j in range(i):
+            if numbers[j] > numbers[j+1]:
+                t = numbers[j]
+                numbers[j] = numbers[j+1]
+                numbers[j+1] = t
+
+numbers = [8, 34, 2, 7, 8 ] 
+bubbleSort(numbers)
+print(numbers)
