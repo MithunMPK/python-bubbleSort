@@ -14,4 +14,6 @@ After ,
       
  NB : After very iteraction, we are getting the last position fixed. So , in the consequent iteration, we dont have to check for the last position. In other words , the program evaluates all n positions in the first iteration, n-1 in the second, n-2 in hte thirs and so on . 
 The last pass happens when the program traverses through the whole array without any swap. 
-So, its important to keep a flag, to keep in track of any swaps that happened in the last pass. 
+
+CONS: 
+ 1 : Multiple swaps in each iteration.
