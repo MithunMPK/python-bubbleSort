@@ -12,7 +12,7 @@ After ,
       Second pass : [8, 2, 34, 7, 8] 
       The last pass : [2, 7, 8, 8 , 34 ] 
       
- NB : After very iteraction, we are getting the last position fixed. So , in the consequent iteration, we dont have to check for the last position. In other words , the program evaluates all n positions in the first iteration, n-1 in the second, n-2 in hte thirs and so on . 
+ NB : After very iteration, we are getting the last position fixed. So , in the consequent iteration, we dont have to check for the last position. In other words , the program evaluates all n positions in the first iteration, n-1 in the second, n-2 in hte thirs and so on . 
 The last pass happens when the program traverses through the whole array without any swap. 
 
 CONS: 
